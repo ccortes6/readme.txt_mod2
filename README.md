@@ -1,1 +1,11 @@
-# readme.txt_mod2
+**Name:** Chase Cortes (ccortes6)
+
+**Module Info:** Module 2 Assignment: Compound Interest due on 02/04/2024 at 11:59 PM EST
+
+**Approach:** For the interest.py file, the variables "p", "r", "t", and "n" were created using the input function to prompt the user to input respective values for each variable. Variables "p", "r", and "n" were created with the int() function to establish them as integers. The variable "r" was created as a float. However, when the print method was used to concatenate the inputs, each variable was converted to a string using str() to enable printing. Then, the formula to calculate the total amount received from the investment was inputted, following Python's order of operations guidelines to acheive the correct desired reults. The interest rate was also calculated by subtracting the total value from variable "p". This variable was named "i". Finally, the print function and "+" operator were used to produce the phrase "Investing $12450 in a CD with an 5.050000000000001% interest rate for a term of 2 year(s) will earn $1320.225605400694 in interest for a total payout of $13770.225605400694" for scenario 1 and "Investing $12450 in a CD with an 5.050000000000001% interest rate for a term of 2 year(s) will earn $1323.0479663958195 in interest for a total payout of $13773.04796639582" for scenario 2. The "p", "r", "t", and "n" were again converted to strings using the str() function and the variable "r" was multiplied by 100 to convert to a percentage. For scenario one, the variable "n" was set to twelve to represent the interest accruing monthly, whereas in scenario two, "n" = 365 as it accrued daily, which led to differing results calculated. 
+
+In the rate.py file, the user was prompted for four values, "p", "A", "t", and "n". Variables "p" and "A" were created as floats while "t" and "n: were integers. When printing these outputs, the str() function was used to convert to strings. Then, the total interest rate formula was algebraically mamnipulated to solve for the variable "r" and put into the file following Python's order of operations. The "r" calculated was then set as a float and multiplied by 100 to give a percent. The final result used the print function and "+" operator to produce the phrase "The interest rate on a $63741.4 CD that pays out $66969.18 over a 1 year term is 4.950005466333174%".
+
+**Known Bugs:** N/A
+
+**Citations:** N/A
